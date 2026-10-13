@@ -1,0 +1,7 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+html{position:relative;scroll-behavior:smooth;scroll-padding-top:96px}body{position:relative;background:#faf3ea;color:#17120f;overflow-x:hidden}
+:focus-visible{outline:2px solid #d9578a;outline-offset:3px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+.marquee{animation:mq 40s linear infinite}@keyframes mq{to{transform:translateX(-50%)}}
+
+.no-scrollbar{scrollbar-width:none}.no-scrollbar::-webkit-scrollbar{display:none}
